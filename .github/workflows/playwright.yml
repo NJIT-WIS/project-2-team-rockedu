@@ -2,7 +2,7 @@ name: Run Playwright and Generate a video, screenshots, and LightHouse HTML Repo
 
 on:
   push:
-    branches: "*"
+    branches: ["*"]
   workflow_dispatch:
 
 jobs:
@@ -24,16 +24,22 @@ jobs:
           npm ci
           npx playwright install chromium
           npm install -g lighthouse chrome-launcher axe-core chromium wait-on
+
+      - name: Build the application
+        run: npm run build
+
       - name: Start the application
         run: |
           export DISPLAY=:1
           npm run start & npx wait-on http://localhost:3000
+
       - name: Run Playwright tests
         run: npx playwright test --config=playwright.config.js
 
       - name: Generate Lighthouse Report
         run: |
           lighthouse http://localhost:3000 --output html --output-path ./test-results/report.html --chrome-flags="--headless --no-sandbox --disable-gpu"
+
       - name: Upload report, screenshots and videos of failed tests
         uses: actions/upload-artifact@v3
         with:

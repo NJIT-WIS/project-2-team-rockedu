@@ -10,3 +10,11 @@ RUN echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
 
 # Set `DEVCONTAINER` environment variable to help with orientation
 ENV DEVCONTAINER=true
+
+
+RUN sudo apt update && \
+    sudo apt-get install -y libgbm-dev &&\
+    npm install -g lighthouse chrome-launcher axe-core chromium wait-on
+
+    # npx playwright install chromium 
+    # sudo npx playwright install-deps

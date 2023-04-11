@@ -31,7 +31,7 @@ jobs:
       - name: Start the application
         run: |
           export DISPLAY=:1
-          npm run start & 
+          # npm run start & 
           # npx wait-on http://localhost:3000
 
       - name: Run Playwright tests

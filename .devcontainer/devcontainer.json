@@ -4,5 +4,20 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"remoteUser": "node"
+	"remoteUser": "node",
+	// "postCreateCommand": "npm install && npx -g playwright install chromium && sudo npx playwright install-deps",
+	"postCreateCommand": "./.devcontainer/postCreate-script.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint"
+			]
+		}
+	},
+	"forwardPorts": [
+		3000
+	],
+	"mounts": [
+		"source=projectname-bashhistory,target=/commandhistory,type=volume"
+	]
 }

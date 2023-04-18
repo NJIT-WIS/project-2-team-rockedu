@@ -17,7 +17,7 @@ module.exports = defineConfig({
     baseURL: process.env.DEFAULT_SITE_URL || 'http://localhost:3000',
     trace: 'on-first-retry',
     video: 'on',
-    timeout: 30000, // Global timeout for tests (in milliseconds)
+    timeout: 30 * 1000, // Global timeout for tests (in milliseconds)
   },
 
   // Define the projects to run, each with its own settings
@@ -42,7 +42,7 @@ module.exports = defineConfig({
 
   // Specify the local development server to run before the tests
   webServer: {
-    command: 'next dev',
+    command: 'next start',
     port: 3000,
     // reuseExistingServer: !process.env.CI,
     reuseExistingServer: true

@@ -25,6 +25,7 @@ Several libraries are available for visual regression testing with Playwright. I
 
 ```bash
 npm i -D playwright-visual-regression
+
 ```
 ## Creating Visual Regression Tests with Playwright
 With Playwright and the visual regression library installed, you can now create visual regression tests.

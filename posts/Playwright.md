@@ -25,7 +25,6 @@ Several libraries are available for visual regression testing with Playwright. I
 
 ```bash
 npm i -D playwright-visual-regression
-
 ```
 ## Creating Visual Regression Tests with Playwright
 With Playwright and the visual regression library installed, you can now create visual regression tests.
@@ -35,7 +34,6 @@ Create a new test file, e.g., visualTests.spec.js, and import the necessary depe
 ```javascript
 const { test, expect } = require('@playwright/test');
 const { matchImageSnapshot } = require('playwright-visual-regression');
-
 ```
 Step 2: Configure Visual Regression Options
 Configure the visual regression options by setting global variables, such as the threshold for image differences:

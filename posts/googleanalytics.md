@@ -1,3 +1,8 @@
+---
+title: '10 Essential Google Analytics Metrics Every Business Should Track'
+date: '2023-04-28'
+---
+
 # 10 Essential Google Analytics Metrics Every Business Should Track
 In the digital age, tracking your online performance is crucial to optimizing your business strategy. Google Analytics is a powerful tool that can provide valuable insights about your website's visitors and their behavior. Here are the top 10 essential metrics every business should track in Google Analytics:
 

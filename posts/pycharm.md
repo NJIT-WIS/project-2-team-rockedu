@@ -1,3 +1,8 @@
+---
+title: 'PyCharm Shortcuts: Boost Your Productivity with Keyboard Shortcuts and Keymaps'
+date: '2023-04-29'
+---
+
 # PyCharm Shortcuts: Boost Your Productivity with Keyboard Shortcuts and Keymaps
 
 PyCharm, the powerful Python IDE, comes with a plethora of features and tools that make coding more efficient and enjoyable. One such feature is the abundance of keyboard shortcuts and keymaps that can significantly boost your productivity. In this blog post, we'll explore some essential PyCharm shortcuts to help you get the most out of this fantastic IDE.

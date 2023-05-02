@@ -1,3 +1,8 @@
+---
+title: 'Introduction to Markdown: History, Purpose, and Popularity'
+date: '2023-04-28'
+---
+
 # Introduction to Markdown: History, Purpose, and Popularity
 
 ## Understanding the Lightweight Markup Language That's Revolutionizing Content Creation

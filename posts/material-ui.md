@@ -1,3 +1,9 @@
+---
+title: 'A Comprehensive Introduction to Material-UI for React'
+date: '2023-04-29'
+---
+
+
 # A Comprehensive Introduction to Material-UI for React
 
 In this blog post, we'll explore Material-UI, a popular React UI framework based on Google's Material Design guidelines. We'll discuss the core components and customization options to help you create beautiful and consistent user interfaces with ease.

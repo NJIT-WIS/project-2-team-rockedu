@@ -1,3 +1,8 @@
+---
+title: 'A Basic Node.js Tutorial'
+date: '2023-04-29'
+---
+
 # A Basic Node.js Tutorial
 
 Welcome to our basic Node.js tutorial! In this tutorial, we will walk through the fundamental concepts of Node.js and create a simple application. By the end of this tutorial, you should have a good understanding of how Node.js works and how to get started with it.

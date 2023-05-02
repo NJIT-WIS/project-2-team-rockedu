@@ -1,3 +1,9 @@
+---
+title: 'Building a Simple Single-Page Application (SPA) with JavaScript'
+date: '2023-04-28'
+---
+
+
 # Building a Simple Single-Page Application (SPA) with JavaScript
 
 In this tutorial, we'll walk through the steps of building a simple Single-Page Application (SPA) using JavaScript and the popular Vue.js framework. Single-page applications offer a more seamless user experience, as they load a single HTML page and dynamically update it as the user interacts with the app. Let's dive in!

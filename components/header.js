@@ -21,6 +21,9 @@ const pages = [{
 {
   title: "About Us",
   link: "/about"
+}, {
+  title: "Blogs",
+  link: "/posts"
 }];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 

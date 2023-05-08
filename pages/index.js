@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Date from '../components/date'
 import { Box, Button, Typography } from '@mui/material'
 import ResponsiveAppBar from '../components/header'
-
+import MailChipForm from '../components/mailchimp-form'
 export default function Home({ allPostsData }) {
   return (
     <Layout home noNameImage>
@@ -56,6 +56,7 @@ export default function Home({ allPostsData }) {
               </Box>
             </Box>
           </Box>))}
+        <MailChipForm />
       </section>
 
       {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

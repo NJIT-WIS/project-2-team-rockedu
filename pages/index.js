@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
           button: "Our Blogs",
           buttonId: "button-0",
           link: "/posts",
-          image: "/NJIT-WIS/project-2-team-rockedu/public/images/ai1.jpeg",
+          image: "images/ai1.jpeg",
           reversed: false
         },
         {
@@ -42,10 +42,12 @@ export default function Home({ allPostsData }) {
           button: "To Know Us",
           buttonId: "button-1",
           link: "/about",
-          image: "/NJIT-WIS/project-2-team-rockedu/public/images/ai2.jpeg",
+          image: "images/ai2.jpeg",
           reversed: true
         }].map((item, index) => (
-          <Box sx={{ display: 'flex', flexDirection: item.reversed ? "row-reverse" : "row", justifyContent: 'space-between', my: 2 }}>
+          <Box sx={{ display: 'flex', flexDirection: item.reversed ? "row-reverse" : "row", justifyContent: 'space-between', my: 2 }}
+            key={item.link}
+          >
             <Box sx={{ width: '50%', p: 1 }}>
               <Typography variant="h4" component="h3" gutterBottom>
                 {item.title}
@@ -65,6 +67,7 @@ export default function Home({ allPostsData }) {
             <Box sx={{ width: '50%', p: 1 }}>
               {/* Box with blue bg */}
               <Box sx={{ bgcolor: 'primary.main', color: 'primary.contrastText', p: 2, borderRadius: 1, height: "100%" }}>
+                <img src={item.image} alt="Alt text" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "10px" }} />
               </Box>
             </Box>
           </Box>))}

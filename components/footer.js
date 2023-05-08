@@ -2,7 +2,7 @@ import React, { FC, ReactElement } from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import Link from "next/link";
 
-const AuthorNames = ["Varshit", "Nandini", "Ramya"]
+const AuthorNames = ["Varshith", "Nandini", "Ramya"]
 
 export const Footer = () => {
   return (

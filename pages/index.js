@@ -16,10 +16,10 @@ export default function Home({ allPostsData }) {
       {/* section with heading */}
       <section className={utilStyles.headingMd}>
         <Typography variant="h4" component="h1" gutterBottom id="heading">
-          Revolutionize Education
+          Revolutionize Education with AI
         </Typography>
         <Typography variant="h5" component="h2" gutterBottom id="desc2">
-          Empower Your Classroom with Easy Daily Management!
+          Empower Classrooms with Easy Daily Management!
         </Typography>
         {/* Box with two columns */}
         {[{

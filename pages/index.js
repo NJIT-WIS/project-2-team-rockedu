@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
           button: "Our Blogs",
           buttonId: "button-0",
           link: "/posts",
-          image: "/images/ai1.jpeg",
+          image: "project-2-team-rockedu/images/ai1.jpeg",
           reversed: false
         },
         {
@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
           button: "To Know Us",
           buttonId: "button-1",
           link: "/about",
-          image: "/images/ai2.jpeg",
+          image: "project-2-team-rockedu/images/ai2.jpeg",
           reversed: true
         }].map((item, index) => (
           <Box sx={{ display: 'flex', flexDirection: item.reversed ? "row-reverse" : "row", justifyContent: 'space-between', my: 2 }}>

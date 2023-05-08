@@ -6,7 +6,6 @@ import { getSortedPostsData } from '../../lib/posts'
 import Link from 'next/link'
 import Date from '../../components/date'
 import { Avatar, Box, Button, Typography } from '@mui/material'
-import MailChipForm from '../../components/mailchimp-form'
 
 export default function Home({ allPostsData }) {
   return (

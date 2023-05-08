@@ -14,6 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from '@mui/material';
 import NextLink from 'next/link'
+import { useRouter } from 'next/router'
 
 const pages = [{
   title: "Home",
@@ -29,6 +30,8 @@ const pages = [{
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
+  const router = useRouter();
+  const { locale } = router;
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 

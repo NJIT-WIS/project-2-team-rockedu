@@ -14,13 +14,13 @@ const GA_TRACKING_ID = 'G-WG41M5B63B'
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
 
-
 export default function App(props) {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
 
   return <CacheProvider value={emotionCache}>
     <Head>
       <meta name="viewport" content="initial-scale=1, width=device-width" />
+      <base href={process.env.NEXT_GITHUB_PAGES_URL || ""} target="_blank" />
     </Head>
     <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
     <Script

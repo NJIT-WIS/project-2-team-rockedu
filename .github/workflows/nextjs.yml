@@ -28,6 +28,9 @@ concurrency:
 jobs:
   # Build job
   build:
+    environment:
+      name: NEXT_GITHUB_PAGES_URL
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

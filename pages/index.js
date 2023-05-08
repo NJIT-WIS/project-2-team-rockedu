@@ -23,21 +23,21 @@ export default function Home({ allPostsData }) {
         </Typography>
         {/* Box with two columns */}
         {[{
-          title: "The Future",
-          description: "Explore how AI-driven agile and lean methodologies are reshaping education by making learning more personalized, adaptive, and efficient. We argue that school administrators need to adopt these approaches to stay competitive and meet the changing needs of students. Our Blog posts highlight the positive impact of AI-enhanced agile and lean approaches on learning outcomes, engagement, and resource utilization, revolutionizing the traditional education system.",
-          button: "Go to Blogs",
+          title: "The Future of AI",
+          description: "Investigate how AI-powered agile and lean methodologies are transforming education by offering more customized, adaptive, and effective learning experiences. It is essential for school administrators to embrace these methods in order to remain competitive and address the evolving needs of students. Our blog articles emphasize the significant influence of AI-supported agile and lean strategies on learning results, student involvement, and the optimization of resources, radically altering the conventional education system.",
+          button: "Our Blogs",
           buttonId: "button-0",
           link: "/posts",
-          image: "/images/ai.jpg",
+          image: "/images/ai1.jpeg",
           reversed: false
         },
         {
-          title: "Storytellers",
-          description: "At mywebclass.org, we are dedicated to educating teachers about the use of Artificial Intelligence (AI) in the classroom. Our mission is to help schools and educators provide better opportunities for their students by leveraging the power of AI. We offer a range of resources that are designed to help teachers learn about the fundamentals of AI, its applications in the classroom, and how it can be integrated into their teaching methods. Our team of experienced instructors are committed to providing high-quality education and support to help teachers feel confident and equipped to bring AI into their classrooms. Join us in this exciting journey towards a more innovative and inclusive future for education.",
-          button: "Go to About Us",
+          title: "What is MyWebClass.org",
+          description: "At mywebclass.org, our focus is on educating educators about incorporating Artificial Intelligence (AI) in the classroom. Our goal is to assist schools and teachers in enhancing their students' opportunities by harnessing the potential of AI. We provide an array of resources aimed at teaching educators about AI fundamentals, its practical uses in the classroom, and ways to integrate it into their instructional techniques. Our team of knowledgeable instructors is dedicated to delivering top-notch education and assistance, empowering teachers to confidently introduce AI in their classrooms. Join us on this thrilling adventure toward a more inventive and all-encompassing future for education.",
+          button: "To Know Us",
           buttonId: "button-1",
           link: "/about",
-          image: "/images/ai.jpg",
+          image: "/images/ai2.jpeg",
           reversed: true
         }].map((item, index) => (
           <Box sx={{ display: 'flex', flexDirection: item.reversed ? "row-reverse" : "row", justifyContent: 'space-between', my: 2 }}>

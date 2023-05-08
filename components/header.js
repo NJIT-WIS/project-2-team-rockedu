@@ -56,7 +56,11 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            href="/project-2-team-rockedu"
+            onClick={(e) => {
+              e.preventDefault();
+              router.push("/", undefined, { locale });
+            }}
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },

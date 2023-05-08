@@ -3,7 +3,7 @@ title: 'A Comprehensive Introduction to Material-UI for React'
 date: '2023-03-27'
 image: '/images/materialui.png'
 author: 'Ramya Kammari'
-authorImage: '/images/Ramya.jpg'
+authorImage: '/images/ramya.jpeg'
 description: "Discover the power of Material-UI, a popular React UI framework based on Google's Material Design guidelines. In this comprehensive introduction, we'll explore core components, customization options, and theming to help you create beautiful, consistent, and responsive user interfaces with ease. Learn how to install and use Material-UI in your React projects and leverage its wide range of pre-built components for a better user experience."
 ---
 

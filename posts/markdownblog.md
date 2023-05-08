@@ -3,7 +3,7 @@ title: 'Introduction to Markdown: History, Purpose, and Popularity'
 date: '2023-03-24'
 image: '/images/markdown.png'
 author: 'Ramya Kammari'
-authorImage: '/images/Ramya.jpg'
+authorImage: '/images/ramya.jpeg'
 description: "Explore the history, purpose, and popularity of Markdown, the lightweight markup language that's transforming content creation in the digital age. In this introduction, we'll discuss how Markdown simplifies the writing process with its easily readable and writable plain text format. Learn how its adoption by various platforms and applications, along with numerous available extensions and tools, has made Markdown a favorite among writers, developers, and educators worldwide."
 ---
 

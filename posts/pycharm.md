@@ -3,7 +3,7 @@ title: 'PyCharm Shortcuts: Boost Your Productivity with Keyboard Shortcuts and K
 date: '2023-03-29'
 image: '/images/pycharm.png'
 author: 'Nandini Palwai'
-authorImage: '/images/Nandini.jpg'
+authorImage: '/images/nandini.jpeg'
 description: " we explore essential PyCharm shortcuts and keymaps that can boost your productivity while using this powerful Python IDE. Learn to navigate the interface, master code editing shortcuts, work with refactoring and code generation features, debug and run your code, use version control, and customize keymaps to your preferences. Familiarize yourself with these shortcuts to streamline your workflow and enhance your coding experience with PyCharm."
 ---
 

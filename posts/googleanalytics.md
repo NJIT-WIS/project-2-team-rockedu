@@ -1,6 +1,10 @@
 ---
 title: '10 Essential Google Analytics Metrics Every Business Should Track'
 date: '2023-04-28'
+image: '/images/googleanalytics.png'
+author: 'Ramya Kammari'
+authorImage: '/images/Ramya.jpg'
+description: "Discover the top 10 essential Google Analytics metrics every business should track to optimize their digital strategy, improve website performance, and provide valuable insights into visitor behavior. Make data-driven decisions for your business today!"
 ---
 
 # 10 Essential Google Analytics Metrics Every Business Should Track

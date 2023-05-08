@@ -1,9 +1,9 @@
 ---
 title: 'Introduction to TypeScript: The Benefits and Reasons to Choose TypeScript Over JavaScript'
-date: '2023-04-29'
-image: 'https://www.clio.com/wp-content/uploads/2019/01/Mailchimp_Logo-Horizontal_Black.png'
-author: 'Sai Kiran'
-authorImage: '/images/profile.jpg'
+date: '2023-03-29'
+image: '/images/typescipt.png'
+author: 'Nandini Palwai'
+authorImage: '/images/Nandini.jpg'
 description: "TypeScript, a superset of JavaScript, has gained significant popularity in recent years for its ability to improve productivity, maintainability, and reduce runtime errors. In this blog post, we'll dive into the benefits of TypeScript and why developers choose it over JavaScript for their projects."
 ---
 

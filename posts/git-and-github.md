@@ -1,6 +1,10 @@
 ---
 title: 'Git and GitHub Tips & Tricks: Best Practices, Shortcuts, and Common Mistakes to Avoid'
-date: '2023-04-28'
+date: '2023-03-28'
+image: '/images/github.png'
+author: 'Ramya Kammari'
+authorImage: '/images/Ramya.jpg'
+description: "Master Git and GitHub with these essential tips and tricks! Learn best practices, shortcuts, and common mistakes to avoid for more efficient and effective version control in your development projects."
 ---
 
 

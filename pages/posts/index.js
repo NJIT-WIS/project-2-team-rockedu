@@ -12,7 +12,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home noNameImage>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{siteTitle} | Posts</title>
       </Head>
       {/* section with heading */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

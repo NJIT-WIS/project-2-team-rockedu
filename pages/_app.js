@@ -6,6 +6,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Head from 'next/head';
 import theme from '../config/theme';
+import CookieConsent from "react-cookie-consent";
 
 const GA_TRACKING_ID = 'G-WG41M5B63B'
 
@@ -40,6 +41,16 @@ export default function App(props) {
       {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
       <CssBaseline />
       <Component {...pageProps} />
+      <CookieConsent
+        location="bottom"
+        buttonText="Accept"
+        cookieName="myAwesomeCookieName2"
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+      >
+        We use cookies to enhance your experience.{" "}
+        <span style={{ fontSize: "10px" }}>Please accept the cookies to continue</span>
+      </CookieConsent>
     </ThemeProvider>
   </CacheProvider>
 }

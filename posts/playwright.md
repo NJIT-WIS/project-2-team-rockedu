@@ -1,9 +1,9 @@
 ---
 title: 'Playwright and Visual Regression Testing: Catching UI Bugs Before They Reach Production'
 date: '2023-03-29'
-image: '/NJIT-WIS/project-2-team-rockedu/public/images/playwright.png'
+image: 'images/playwright.png'
 author: 'Nandini Palwai'
-authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/nandini.jpeg'
+authorImage: 'images/nandini.jpeg'
 description: "we delve into visual regression testing using Playwright, a powerful browser automation tool, to catch UI bugs before they reach production. Learn how to set up Playwright for visual regression testing, create tests, and run them to ensure the quality and consistency of your web application's user interface. By incorporating visual regression tests into your development workflow, you can maintain an exceptional user experience and prevent UI issues from affecting your users."
 ---
 

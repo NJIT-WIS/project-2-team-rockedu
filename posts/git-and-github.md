@@ -1,9 +1,9 @@
 ---
 title: 'Git and GitHub Tips & Tricks: Best Practices, Shortcuts, and Common Mistakes to Avoid'
 date: '2023-03-28'
-image: '/NJIT-WIS/project-2-team-rockedu/public/images/github.png'
+image: 'images/github.png'
 author: 'Ramya Kammari'
-authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/ramya.jpeg'
+authorImage: 'images/ramya.jpeg'
 description: "Master Git and GitHub with these essential tips and tricks! Learn best practices, shortcuts, and common mistakes to avoid for more efficient and effective version control in your development projects."
 ---
 

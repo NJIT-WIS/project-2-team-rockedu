@@ -1,9 +1,9 @@
 ---
 title: 'Adding a Mailchimp Form to your site'
 date: '2023-04-28'
-image: '/NJIT-WIS/project-2-team-rockedu/public/images/mailchimp.png'
+image: 'images/mailchimp.png'
 author: 'Ramya Kammari'
-authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/ramya.jpeg'
+authorImage: 'images/ramya.jpeg'
 description: "Discover how to seamlessly integrate a Mailchimp form into your website with this step-by-step guide. Boost audience engagement, collect subscribers, and elevate your email marketing efforts by adding a customizable Mailchimp form to your site today."
 ---
 
@@ -13,11 +13,13 @@ Boost your site's engagement and grow your audience by integrating Mailchimp for
 
 ## Table of Contents
 
-1. [Introduction to Mailchimp Forms](#introduction-to-mailchimp-forms)
-2. [Creating a Mailchimp Account](#creating-a-mailchimp-account)
-3. [Designing a Signup Form](#designing-a-signup-form)
-4. [Adding the Form to Your Site](#adding-the-form-to-your-site)
-5. [Conclusion](#conclusion)
+- [Adding a Mailchimp Form to Your Site: A Step-by-Step Guide](#adding-a-mailchimp-form-to-your-site-a-step-by-step-guide)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction to Mailchimp Forms](#introduction-to-mailchimp-forms)
+  - [Creating a Mailchimp Account](#creating-a-mailchimp-account)
+  - [Designing a Signup Form](#designing-a-signup-form)
+  - [Adding the Form to Your Site](#adding-the-form-to-your-site)
+  - [Conclusion](#conclusion)
 
 ## Introduction to Mailchimp Forms
 

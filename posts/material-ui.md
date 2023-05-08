@@ -1,9 +1,9 @@
 ---
 title: 'A Comprehensive Introduction to Material-UI for React'
 date: '2023-03-27'
-image: '/NJIT-WIS/project-2-team-rockedu/public/images/materialui.png'
+image: 'images/materialui.png'
 author: 'Ramya Kammari'
-authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/ramya.jpeg'
+authorImage: 'images/ramya.jpeg'
 description: "Discover the power of Material-UI, a popular React UI framework based on Google's Material Design guidelines. In this comprehensive introduction, we'll explore core components, customization options, and theming to help you create beautiful, consistent, and responsive user interfaces with ease. Learn how to install and use Material-UI in your React projects and leverage its wide range of pre-built components for a better user experience."
 ---
 
@@ -13,11 +13,16 @@ description: "Discover the power of Material-UI, a popular React UI framework ba
 In this blog post, we'll explore Material-UI, a popular React UI framework based on Google's Material Design guidelines. We'll discuss the core components and customization options to help you create beautiful and consistent user interfaces with ease.
 
 ## Table of Contents
-1. [Introduction to Material-UI](#introduction-to-material-ui)
-2. [Getting Started with Material-UI](#getting-started-with-material-ui)
-3. [Core Components](#core-components)
-4. [Customization](#customization)
-5. [Conclusion](#conclusion)
+- [A Comprehensive Introduction to Material-UI for React](#a-comprehensive-introduction-to-material-ui-for-react)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction to Material-UI](#introduction-to-material-ui)
+  - [Getting Started with Material-UI](#getting-started-with-material-ui)
+  - [Core Components](#core-components)
+    - [Example: A Simple Card](#example-a-simple-card)
+  - [Customization](#customization)
+    - [Styling Components with `sx` Prop](#styling-components-with-sx-prop)
+  - [Conclusion](#conclusion)
+    - [Happy coding!](#happy-coding)
 
 ## Introduction to Material-UI
 Material-UI is a React component library that implements Google's Material Design principles. This UI framework offers a wide range of pre-built components, making it easy to create a consistent and responsive user interface. Some key features include:

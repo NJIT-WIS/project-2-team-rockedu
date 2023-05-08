@@ -1,9 +1,9 @@
 ---
 title: 'PyCharm Shortcuts: Boost Your Productivity with Keyboard Shortcuts and Keymaps'
 date: '2023-03-29'
-image: '/NJIT-WIS/project-2-team-rockedu/public/images/pycharm.png'
+image: 'images/pycharm.png'
 author: 'Nandini Palwai'
-authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/nandini.jpeg'
+authorImage: 'images/nandini.jpeg'
 description: " we explore essential PyCharm shortcuts and keymaps that can boost your productivity while using this powerful Python IDE. Learn to navigate the interface, master code editing shortcuts, work with refactoring and code generation features, debug and run your code, use version control, and customize keymaps to your preferences. Familiarize yourself with these shortcuts to streamline your workflow and enhance your coding experience with PyCharm."
 ---
 
@@ -13,12 +13,14 @@ PyCharm, the powerful Python IDE, comes with a plethora of features and tools th
 
 ## Table of Contents
 
-1. [Navigating the Interface](#navigating-the-interface)
-2. [Code Editing Shortcuts](#code-editing-shortcuts)
-3. [Refactoring and Code Generation](#refactoring-and-code-generation)
-4. [Debugging and Running](#debugging-and-running)
-5. [Version Control](#version-control)
-6. [Customizing Keymaps](#customizing-keymaps)
+- [PyCharm Shortcuts: Boost Your Productivity with Keyboard Shortcuts and Keymaps](#pycharm-shortcuts-boost-your-productivity-with-keyboard-shortcuts-and-keymaps)
+  - [Table of Contents](#table-of-contents)
+  - [Navigating the Interface](#navigating-the-interface)
+  - [Code Editing Shortcuts](#code-editing-shortcuts)
+  - [Refactoring and Code Generation](#refactoring-and-code-generation)
+  - [Debugging and Running](#debugging-and-running)
+  - [Version Control](#version-control)
+  - [Customizing Keymaps](#customizing-keymaps)
 
 ## Navigating the Interface
 

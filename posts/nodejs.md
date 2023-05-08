@@ -1,9 +1,9 @@
 ---
 title: 'A Basic Node.js Tutorial'
 date: '2023-03-29'
-image: '/NJIT-WIS/project-2-team-rockedu/public/images/nodejs.png'
+image: 'images/nodejs.png'
 author: 'Nandini Palwai'
-authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/nandini.jpeg'
+authorImage: 'images/nandini.jpeg'
 description: "we introduce the fundamental concepts of Node.js and guide you through creating a simple application. Learn how to install and set up Node.js, create your first Node.js application, and explore the use of modules for code organization. By the end of this tutorial, you'll have a better understanding of Node.js and be ready to dive deeper into this powerful JavaScript runtime environment."
 ---
 
@@ -13,11 +13,13 @@ Welcome to our basic Node.js tutorial! In this tutorial, we will walk through th
 
 ## Table of Contents
 
-1. [Introduction to Node.js](#introduction-to-nodejs)
-2. [Installation and Setup](#installation-and-setup)
-3. [Creating Your First Node.js Application](#creating-your-first-nodejs-application)
-4. [Modules in Node.js](#modules-in-nodejs)
-5. [Conclusion](#conclusion)
+- [A Basic Node.js Tutorial](#a-basic-nodejs-tutorial)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction to Node.js](#introduction-to-nodejs)
+  - [Installation and Setup](#installation-and-setup)
+  - [Creating Your First Node.js Application](#creating-your-first-nodejs-application)
+  - [Modules in Node.js](#modules-in-nodejs)
+  - [Conclusion](#conclusion)
 
 ## Introduction to Node.js
 

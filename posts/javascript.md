@@ -1,9 +1,9 @@
 ---
 title: 'Building a Simple Single-Page Application (SPA) with JavaScript'
 date: '2023-04-28'
-image: '/NJIT-WIS/project-2-team-rockedu/public/images/javascript.png'
+image: 'images/javascript.png'
 author: 'Ramya Kammari'
-authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/ramya.jpeg'
+authorImage: 'images/ramya.jpeg'
 description: "Learn how to build a simple Single-Page Application (SPA) using JavaScript and the popular Vue.js framework with this step-by-step tutorial. Enhance your web development skills and create seamless, dynamic user experiences by building a SPA from scratch today."
 ---
 
@@ -13,12 +13,18 @@ description: "Learn how to build a simple Single-Page Application (SPA) using Ja
 In this tutorial, we'll walk through the steps of building a simple Single-Page Application (SPA) using JavaScript and the popular Vue.js framework. Single-page applications offer a more seamless user experience, as they load a single HTML page and dynamically update it as the user interacts with the app. Let's dive in!
 
 ## Table of Contents
-1. [Prerequisites](#Prerequisites)
-2. [Setting Up the Project](#Setting-Up-the-Project)
-3. [Creating the Components](#Creating-the-Components)
-4. [Adding Routing](#Adding-Routing)
-5. [Building the SPA](#building-the-spa)
-6. [Conclusion](#Conclusion)
+- [Building a Simple Single-Page Application (SPA) with JavaScript](#building-a-simple-single-page-application-spa-with-javascript)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Setting Up the Project](#setting-up-the-project)
+  - [Creating the Components](#creating-the-components)
+    - [Home.vue](#homevue)
+    - [About.vue](#aboutvue)
+    - [Contact.vue](#contactvue)
+  - [Adding Routing](#adding-routing)
+  - [Building the SPA](#building-the-spa)
+  - [Conclusion](#conclusion)
+    - [Happy coding!](#happy-coding)
 
 ## Prerequisites
 Before getting started, make sure you have the following installed:

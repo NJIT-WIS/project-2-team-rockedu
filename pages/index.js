@@ -66,7 +66,7 @@ export default function Home({ allPostsData }) {
             </Box>
             <Box sx={{ width: '50%', p: 1 }}>
               {/* Box with blue bg */}
-              <Box sx={{ bgcolor: 'primary.main', color: 'primary.contrastText', p: 2, borderRadius: 1, height: "100%" }}>
+              <Box sx={{ bgcolor: 'primary.main', color: 'primary.contrastText', p: 0, borderRadius: 1, height: "100%" }}>
                 <img src={item.image} alt="Alt text" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "10px" }} />
               </Box>
             </Box>

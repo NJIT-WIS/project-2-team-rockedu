@@ -1,9 +1,9 @@
 ---
 title: 'Building a Simple Single-Page Application (SPA) with JavaScript'
 date: '2023-04-28'
-image: '/images/javascript.png'
+image: '/NJIT-WIS/project-2-team-rockedu/public/images/javascript.png'
 author: 'Ramya Kammari'
-authorImage: '/images/ramya.jpeg'
+authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/ramya.jpeg'
 description: "Learn how to build a simple Single-Page Application (SPA) using JavaScript and the popular Vue.js framework with this step-by-step tutorial. Enhance your web development skills and create seamless, dynamic user experiences by building a SPA from scratch today."
 ---
 

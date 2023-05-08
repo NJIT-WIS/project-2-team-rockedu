@@ -1,9 +1,9 @@
 ---
 title: 'A Basic Node.js Tutorial'
 date: '2023-03-29'
-image: '/images/nodejs.png'
+image: '/NJIT-WIS/project-2-team-rockedu/public/images/nodejs.png'
 author: 'Nandini Palwai'
-authorImage: '/images/nandini.jpeg'
+authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/nandini.jpeg'
 description: "we introduce the fundamental concepts of Node.js and guide you through creating a simple application. Learn how to install and set up Node.js, create your first Node.js application, and explore the use of modules for code organization. By the end of this tutorial, you'll have a better understanding of Node.js and be ready to dive deeper into this powerful JavaScript runtime environment."
 ---
 

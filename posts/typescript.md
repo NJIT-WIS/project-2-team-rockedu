@@ -1,9 +1,9 @@
 ---
 title: 'Introduction to TypeScript: The Benefits and Reasons to Choose TypeScript Over JavaScript'
 date: '2023-03-29'
-image: '/images/typescript.png'
+image: '/NJIT-WIS/project-2-team-rockedu/public/images/typescript.png'
 author: 'Nandini Palwai'
-authorImage: '/images/nandini.jpeg'
+authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/nandini.jpeg'
 description: "TypeScript, a superset of JavaScript, has gained significant popularity in recent years for its ability to improve productivity, maintainability, and reduce runtime errors. In this blog post, we'll dive into the benefits of TypeScript and why developers choose it over JavaScript for their projects."
 ---
 

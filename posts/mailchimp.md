@@ -1,9 +1,9 @@
 ---
 title: 'Adding a Mailchimp Form to your site'
 date: '2023-04-28'
-image: '/images/mailchimp.png'
+image: '/NJIT-WIS/project-2-team-rockedu/public/images/mailchimp.png'
 author: 'Ramya Kammari'
-authorImage: '/images/ramya.jpeg'
+authorImage: '/NJIT-WIS/project-2-team-rockedu/public/images/ramya.jpeg'
 description: "Discover how to seamlessly integrate a Mailchimp form into your website with this step-by-step guide. Boost audience engagement, collect subscribers, and elevate your email marketing efforts by adding a customizable Mailchimp form to your site today."
 ---
 

@@ -30,9 +30,9 @@ test(`Page "/" should have "Empower Your Classroom with Easy Daily Management!" 
   await checkTextOnPage(pageUrl, expectedTitle, "#desc2");
 });
 
-test(`Page "/" should have a button with text "Go to Blogs"`, async ({ }) => {
+test(`Page "/" should have a button with text "Our Blogs"`, async ({ }) => {
   const pageUrl = `${config.use.baseURL}/`;
 
-  const expectedTitle = "Go to Blogs";
+  const expectedTitle = "Our Blogs";
   await checkTextOnPage(pageUrl, expectedTitle, "#button-0");
 });

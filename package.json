@@ -4,7 +4,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "export": "next export"
   },
   "dependencies": {
     "@emotion/react": "^11.10.8",

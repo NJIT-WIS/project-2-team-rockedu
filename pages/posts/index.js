@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import Layout, { siteTitle } from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
@@ -19,8 +20,8 @@ export default function Home({ allPostsData }) {
           <span className={utilStyles.lightText}>Welcome to the blogs</span>
         </Typography>
         <Box sx={{ display: 'flex', flexDirection: "column", justifyContent: 'space-between', mb: 4 }}>
-          {allPostsData.map(({ id, date, title, image, author, authorImage, description }) => (
-            <Box key={id}>
+          {allPostsData.map(({ id, date, title, image, author, authorImage, description, Not_Blog }) => (
+            Not_Blog ? <React.Fragment key={id}></React.Fragment> : (<Box key={id}>
               <Box className={utilStyles.listItem} key={id}>
                 {image && <img src={image} alt={title} />}
                 <Box className={utilStyles.lightText} sx={{
@@ -37,7 +38,7 @@ export default function Home({ allPostsData }) {
                   {description}
                 </Typography>
               </Box>
-            </Box>
+            </Box>)
           ))}
         </Box>
         {/* <ul className={utilStyles.list}>

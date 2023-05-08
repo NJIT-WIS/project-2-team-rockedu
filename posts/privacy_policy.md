@@ -1,3 +1,7 @@
+---
+Not_Blog: True
+title: Privacy Policy
+---
 # Privacy
 Here is our Privacy & Cookie Policy, which outlines numerous legal aspects. Our primary goal is to always prioritize your well-being as a user on our platform.
 

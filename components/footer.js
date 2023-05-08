@@ -1,5 +1,6 @@
 import React, { FC, ReactElement } from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
+import Link from "next/link";
 
 const AuthorNames = ["Varshit", "Nandini", "Ramya"]
 
@@ -29,6 +30,11 @@ export const Footer = () => {
               {`Made with ❤️ by `}{AuthorNames.map((name, index) => {
                 return <span key={index}>{name}{index < AuthorNames.length - 1 ? ", " : ""}</span>
               })}
+            </Typography>
+            <Typography color="textSecondary" variant="subtitle1">
+              <Link href={"/posts/privacy_policy"}>
+                Privacy Policy
+              </Link>
             </Typography>
           </Grid>
         </Grid>

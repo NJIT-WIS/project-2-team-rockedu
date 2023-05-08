@@ -7,7 +7,12 @@ import Date from '../components/date'
 import { Box, Button, Typography } from '@mui/material'
 import ResponsiveAppBar from '../components/header'
 import MailChipForm from '../components/mailchimp-form'
+import { useRouter } from 'next/router'
+
 export default function Home({ allPostsData }) {
+  const router = useRouter();
+  const { locale } = router;
+
   return (
     <Layout home noNameImage>
       <Head>
@@ -48,7 +53,12 @@ export default function Home({ allPostsData }) {
               <Typography variant="body1" gutterBottom>
                 {item.description}
               </Typography>
-              <Button variant="contained" color="primary" href={item.link} id={item.buttonId}>
+              <Button variant="contained" color="primary" href={item.link} id={item.buttonId}
+                onClick={(e) => {
+                  e.preventDefault();
+                  router.push(item.link, undefined, { locale });
+                }}
+              >
                 {item.button}
               </Button>
             </Box>

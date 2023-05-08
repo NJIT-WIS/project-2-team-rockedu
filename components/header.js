@@ -13,6 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from '@mui/material';
+import NextLink from 'next/link'
 
 const pages = [{
   title: "Home",
@@ -126,7 +127,7 @@ function ResponsiveAppBar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Link
+              <NextLink
                 key={page.title}
                 href={page.link}
               >
@@ -136,7 +137,7 @@ function ResponsiveAppBar() {
                 >
                   {page.title}
                 </Button>
-              </Link>
+              </NextLink>
             ))}
           </Box>
 

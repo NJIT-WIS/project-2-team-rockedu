@@ -21,8 +21,6 @@ title: About Us
   </div>
 </div>
 
-
-
 <div style="display:flex;">
   <div style="flex:1;">
     <img src="/NJIT-WIS/project-2-team-rockedu/public/images/varshith.jpeg" alt="Alt text" style="border-radius:60%; width:130px; height:130px; object-fit:cover;margin-bottom:30px;"/>

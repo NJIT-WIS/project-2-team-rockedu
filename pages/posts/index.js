@@ -7,8 +7,12 @@ import Link from 'next/link'
 import Date from '../../components/date'
 import { Avatar, Box, Button, Typography } from '@mui/material'
 import MailChipForm from '../../components/mailchimp-form'
+import { useRouter } from 'next/router'
 
 export default function Home({ allPostsData }) {
+  const router = useRouter()
+  const { locale } = router
+
   return (
     <Layout home noNameImage>
       <Head>

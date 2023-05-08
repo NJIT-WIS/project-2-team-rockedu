@@ -31,7 +31,9 @@ export const Footer = () => {
                 return <span key={index}>{name}{index < AuthorNames.length - 1 ? ", " : ""}</span>
               })}
             </Typography>
-            <Typography color="textSecondary" variant="subtitle1">
+            <Typography color="textSecondary" variant="subtitle1" sx={{
+              textAlign: "center"
+            }}>
               <Link href={"/posts/privacy_policy"}>
                 Privacy Policy
               </Link>

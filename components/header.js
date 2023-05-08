@@ -13,6 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from '@mui/material';
+import LanguageIcon from '@mui/icons-material/Language';
+import { useRouter } from 'next/router'
 
 const pages = [{
   title: "Home",
@@ -25,7 +27,16 @@ const pages = [{
   title: "Blogs",
   link: "/posts"
 }];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const languages = [
+  {
+    code: 'en-US',
+    name: 'English',
+  },
+  {
+    code: 'en-ES',
+    name: 'Español',
+  },
+]
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -45,6 +56,9 @@ function ResponsiveAppBar() {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
+
+  const router = useRouter()
+  const { locale } = router
 
   return (
     <AppBar position="static">
@@ -140,14 +154,16 @@ function ResponsiveAppBar() {
             ))}
           </Box>
 
-          {/* <Box sx={{ flexGrow: 0 }}>
+          <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <LanguageIcon />
               </IconButton>
             </Tooltip>
             <Menu
-              sx={{ mt: '45px' }}
+              sx={{
+                mt: '45px',
+              }}
               id="menu-appbar"
               anchorEl={anchorElUser}
               anchorOrigin={{
@@ -162,13 +178,19 @@ function ResponsiveAppBar() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
+              {languages.map((language) => (
+                <MenuItem key={language.code}
+                  selected={language.code === locale}
+                  onClick={() => {
+                    handleCloseUserMenu()
+                    // ROute to the same page with the new language
+                    router.push(router.pathname, router.asPath, { locale: language.code })
+                  }}>
+                  <Typography textAlign="center">{language.name}</Typography>
                 </MenuItem>
               ))}
             </Menu>
-          </Box> */}
+          </Box>
         </Toolbar>
       </Container>
     </AppBar>

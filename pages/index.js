@@ -7,7 +7,12 @@ import Date from '../components/date'
 import { Box, Button, Typography } from '@mui/material'
 import ResponsiveAppBar from '../components/header'
 import MailChipForm from '../components/mailchimp-form'
+import { useRouter } from 'next/router'
+
 export default function Home({ allPostsData }) {
+  const router = useRouter()
+  const { locale } = router
+
   return (
     <Layout home noNameImage>
       <Head>
@@ -38,7 +43,9 @@ export default function Home({ allPostsData }) {
           image: "/images/ai.jpg",
           reversed: true
         }].map((item, index) => (
-          <Box sx={{ display: 'flex', flexDirection: item.reversed ? "row-reverse" : "row", justifyContent: 'space-between', my: 2 }}>
+          <Box
+            key={item.link}
+            sx={{ display: 'flex', flexDirection: item.reversed ? "row-reverse" : "row", justifyContent: 'space-between', my: 2 }}>
             <Box sx={{ width: '50%', p: 1 }}>
               <Typography variant="h4" component="h3" gutterBottom>
                 {item.title}
@@ -46,7 +53,10 @@ export default function Home({ allPostsData }) {
               <Typography variant="body1" gutterBottom>
                 {item.description}
               </Typography>
-              <Button variant="contained" color="primary" href={item.link}>
+              <Button variant="contained" color="primary" href={item.link} onClick={(e) => {
+                e.preventDefault();
+                router.push(item.link, undefined, { locale })
+              }}>
                 {item.button}
               </Button>
             </Box>
